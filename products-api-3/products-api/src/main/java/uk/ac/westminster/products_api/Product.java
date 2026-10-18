@@ -14,6 +14,9 @@ public class Product {
     }
 
     public Long getId() { return id; }
+
+    // Activity 3: Tested commenting out getName() -> Spring Boot/Jackson omits "name" from JSON response
     public String getName() { return name; }
+
     public double getPrice() { return price; }
 }
